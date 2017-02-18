@@ -2,9 +2,7 @@
 //  AppDelegate.m
 //  SuspendViewDemo
 //
-//  Created by cchhjj on 16/12/13.
-//  Copyright © 2016年 CanHe Chen. All rights reserved.
-//
+
 
 #import "AppDelegate.h"
 
@@ -16,7 +14,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
     return YES;
 }
 

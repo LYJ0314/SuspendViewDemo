@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F4519851E00D4490032826E /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4519841E00D4490032826E /* TestViewController.m */; };
+		5F45198B1E00E01E0032826E /* CCHContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4519881E00E01E0032826E /* CCHContentViewController.m */; };
+		5F45198C1E00E01E0032826E /* CCHSuspendWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F45198A1E00E01E0032826E /* CCHSuspendWindow.m */; };
 		5F4CF4B51DFF901600B1EB35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4CF4B41DFF901600B1EB35 /* main.m */; };
 		5F4CF4B81DFF901600B1EB35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4CF4B71DFF901600B1EB35 /* AppDelegate.m */; };
 		5F4CF4BB1DFF901600B1EB35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4CF4BA1DFF901600B1EB35 /* ViewController.m */; };
@@ -15,6 +18,8 @@
 		5F4CF4C31DFF901700B1EB35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F4CF4C11DFF901700B1EB35 /* LaunchScreen.storyboard */; };
 		5F4CF4CE1DFF901800B1EB35 /* SuspendViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4CF4CD1DFF901800B1EB35 /* SuspendViewDemoTests.m */; };
 		5F4CF4D91DFF901800B1EB35 /* SuspendViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4CF4D81DFF901800B1EB35 /* SuspendViewDemoUITests.m */; };
+		5F4CF4EE1E00009D00B1EB35 /* 边框.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F4CF4EC1E00009D00B1EB35 /* 边框.png */; };
+		5F4CF4EF1E00009D00B1EB35 /* 删除.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F4CF4ED1E00009D00B1EB35 /* 删除.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F4519831E00D4490032826E /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		5F4519841E00D4490032826E /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		5F4519871E00E01E0032826E /* CCHContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHContentViewController.h; sourceTree = "<group>"; };
+		5F4519881E00E01E0032826E /* CCHContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCHContentViewController.m; sourceTree = "<group>"; };
+		5F4519891E00E01E0032826E /* CCHSuspendWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHSuspendWindow.h; sourceTree = "<group>"; };
+		5F45198A1E00E01E0032826E /* CCHSuspendWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCHSuspendWindow.m; sourceTree = "<group>"; };
 		5F4CF4B01DFF901500B1EB35 /* SuspendViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuspendViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F4CF4B41DFF901600B1EB35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5F4CF4B61DFF901600B1EB35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +62,8 @@
 		5F4CF4D41DFF901800B1EB35 /* SuspendViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuspendViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F4CF4D81DFF901800B1EB35 /* SuspendViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuspendViewDemoUITests.m; sourceTree = "<group>"; };
 		5F4CF4DA1DFF901800B1EB35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F4CF4EC1E00009D00B1EB35 /* 边框.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "边框.png"; sourceTree = "<group>"; };
+		5F4CF4ED1E00009D00B1EB35 /* 删除.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +91,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F4519861E00E01E0032826E /* CCHSuspendWindow */ = {
+			isa = PBXGroup;
+			children = (
+				5F4519891E00E01E0032826E /* CCHSuspendWindow.h */,
+				5F45198A1E00E01E0032826E /* CCHSuspendWindow.m */,
+				5F4519871E00E01E0032826E /* CCHContentViewController.h */,
+				5F4519881E00E01E0032826E /* CCHContentViewController.m */,
+			);
+			path = CCHSuspendWindow;
+			sourceTree = "<group>";
+		};
 		5F4CF4A71DFF901300B1EB35 = {
 			isa = PBXGroup;
 			children = (
@@ -101,11 +125,16 @@
 		5F4CF4B21DFF901500B1EB35 /* SuspendViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5F4519861E00E01E0032826E /* CCHSuspendWindow */,
 				5F4CF4B61DFF901600B1EB35 /* AppDelegate.h */,
 				5F4CF4B71DFF901600B1EB35 /* AppDelegate.m */,
 				5F4CF4B91DFF901600B1EB35 /* ViewController.h */,
 				5F4CF4BA1DFF901600B1EB35 /* ViewController.m */,
+				5F4519831E00D4490032826E /* TestViewController.h */,
+				5F4519841E00D4490032826E /* TestViewController.m */,
 				5F4CF4BC1DFF901600B1EB35 /* Main.storyboard */,
+				5F4CF4EC1E00009D00B1EB35 /* 边框.png */,
+				5F4CF4ED1E00009D00B1EB35 /* 删除.png */,
 				5F4CF4BF1DFF901700B1EB35 /* Assets.xcassets */,
 				5F4CF4C11DFF901700B1EB35 /* LaunchScreen.storyboard */,
 				5F4CF4C41DFF901700B1EB35 /* Info.plist */,
@@ -207,18 +236,17 @@
 				TargetAttributes = {
 					5F4CF4AF1DFF901400B1EB35 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = QUH359YKB6;
+						DevelopmentTeam = 4GH4W38WTY;
 						ProvisioningStyle = Automatic;
 					};
 					5F4CF4C81DFF901800B1EB35 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = QUH359YKB6;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						TestTargetID = 5F4CF4AF1DFF901400B1EB35;
 					};
 					5F4CF4D31DFF901800B1EB35 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = QUH359YKB6;
+						DevelopmentTeam = QG9BZ53JJ4;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 5F4CF4AF1DFF901400B1EB35;
 					};
@@ -249,6 +277,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F4CF4EF1E00009D00B1EB35 /* 删除.png in Resources */,
+				5F4CF4EE1E00009D00B1EB35 /* 边框.png in Resources */,
 				5F4CF4C31DFF901700B1EB35 /* LaunchScreen.storyboard in Resources */,
 				5F4CF4C01DFF901700B1EB35 /* Assets.xcassets in Resources */,
 				5F4CF4BE1DFF901600B1EB35 /* Main.storyboard in Resources */,
@@ -276,9 +306,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F4519851E00D4490032826E /* TestViewController.m in Sources */,
 				5F4CF4BB1DFF901600B1EB35 /* ViewController.m in Sources */,
+				5F45198B1E00E01E0032826E /* CCHContentViewController.m in Sources */,
 				5F4CF4B81DFF901600B1EB35 /* AppDelegate.m in Sources */,
 				5F4CF4B51DFF901600B1EB35 /* main.m in Sources */,
+				5F45198C1E00E01E0032826E /* CCHSuspendWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,7 +406,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -415,7 +448,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -427,10 +460,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QUH359YKB6;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4GH4W38WTY;
 				INFOPLIST_FILE = SuspendViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cchhjj.SuspendViewDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yy.SuspendViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -439,10 +474,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QUH359YKB6;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4GH4W38WTY;
 				INFOPLIST_FILE = SuspendViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cchhjj.SuspendViewDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yy.SuspendViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -451,10 +488,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = QUH359YKB6;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SuspendViewDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cchhjj.SuspendViewDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yy.SuspendViewDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuspendViewDemo.app/SuspendViewDemo";
 			};
@@ -464,10 +501,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = QUH359YKB6;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SuspendViewDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cchhjj.SuspendViewDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yy.SuspendViewDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuspendViewDemo.app/SuspendViewDemo";
 			};
@@ -476,10 +513,11 @@
 		5F4CF4E41DFF901800B1EB35 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = QUH359YKB6;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = QG9BZ53JJ4;
 				INFOPLIST_FILE = SuspendViewDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cchhjj.SuspendViewDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yy.SuspendViewDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = SuspendViewDemo;
 			};
@@ -488,10 +526,11 @@
 		5F4CF4E51DFF901800B1EB35 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = QUH359YKB6;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = QG9BZ53JJ4;
 				INFOPLIST_FILE = SuspendViewDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cchhjj.SuspendViewDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yy.SuspendViewDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = SuspendViewDemo;
 			};
@@ -516,6 +555,7 @@
 				5F4CF4DF1DFF901800B1EB35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F4CF4E01DFF901800B1EB35 /* Build configuration list for PBXNativeTarget "SuspendViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +564,7 @@
 				5F4CF4E21DFF901800B1EB35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F4CF4E31DFF901800B1EB35 /* Build configuration list for PBXNativeTarget "SuspendViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +573,7 @@
 				5F4CF4E51DFF901800B1EB35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
